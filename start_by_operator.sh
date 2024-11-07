@@ -30,7 +30,8 @@ else  ## No process running
   fi
 
   cd ${build_path}
-
+  mkdir -p $log_path
+  
   ## Starting the process
 
   echo "Starting ${module_name} module for operator $mno ..."
