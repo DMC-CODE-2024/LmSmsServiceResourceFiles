@@ -40,9 +40,6 @@ CREATE TABLE if not exists ussd_usage_1205 (
   PRIMARY KEY (id)
 );
 
-insert into cfg_feature_alert (alert_id, description, feature) values ('alert5500', 'The file does not exists for USSD summary.','USSD Summary');
-insert into cfg_feature_alert (alert_id, description, feature) values ('alert5501', 'The processing failed for USSD file <e> for operator <process_name>','USSD Summary');
-insert into cfg_feature_alert (alert_id, description, feature) values ('alert5502', 'The processing failed for USSD summary.','USSD Summary');
 insert into cfg_feature_alert (alert_id, description, feature) values ('alert5600', 'The file does not exists for SMS summary.','SMS Summary');
 insert into cfg_feature_alert (alert_id, description, feature) values ('alert5601', 'The processing failed for SMS file <e> for operator <process_name>','SMS Summary');
 insert into cfg_feature_alert (alert_id, description, feature) values ('alert5602', 'The processing failed for SMS summary.','SMS Summary');
