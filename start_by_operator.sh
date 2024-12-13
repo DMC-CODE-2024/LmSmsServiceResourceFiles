@@ -2,7 +2,7 @@
 
 mno=$1
 
-module_name="lm_sms_change"
+module_name="lm_ussd_usage_1205"
 main_module="list_management"          ## keep it empty "" if there is no main module 
 log_level="INFO"        ## INFO, DEBUG, ERROR
 
