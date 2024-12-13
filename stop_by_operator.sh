@@ -1,7 +1,7 @@
 #!/bin/bash
 mno=$1
 
-module_name="lm_sim_change"
+module_name="lm_ussd_usage_1205"
 
 process=$module_name.jar
 
