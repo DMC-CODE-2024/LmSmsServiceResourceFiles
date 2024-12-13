@@ -2,7 +2,7 @@
 
 mno=$1
 
-module_name="lm_sim_change"
+module_name="lm_sms_change"
 main_module="list_management"          ## keep it empty "" if there is no main module 
 log_level="INFO"        ## INFO, DEBUG, ERROR
 
