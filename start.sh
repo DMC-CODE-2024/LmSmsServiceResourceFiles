@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting lm_sim_change module for all operator....."
+echo "Starting lm_sms_service module for all operator....."
 
 ## Start for cellcard operator ##
 ./start_by_operator.sh cc
